@@ -5,6 +5,6 @@ public class Level : MonoBehaviour
 {
   public void ReturnToMainMenu()
   {
-    SceneManager.LoadScene("Main Menu");
+    SceneManager.LoadScene(0);
   }
 }
