@@ -10,6 +10,7 @@ public class TextBox : MonoBehaviour
     public GameObject nextButton;
     public GameObject prevButton;
     public string[] dialogueLines;
+    public bool isCharacterSpeakingFirst;
 
     private int currentLineIndex = 0;
     private float typingSpeed = 0.01f;
@@ -21,8 +22,8 @@ public class TextBox : MonoBehaviour
 
         prevButton.SetActive(false);
 
-        characterTextBox.SetActive(true);
-        playerTextBox.SetActive(false);
+        characterTextBox.SetActive(isCharacterSpeakingFirst);
+        playerTextBox.SetActive(!isCharacterSpeakingFirst);
 
         StartCoroutine(TypeLine());
     }
@@ -39,16 +40,8 @@ public class TextBox : MonoBehaviour
 
     void SwapTextBox()
     {
-        if (currentLineIndex % 2 == 0)
-        {
-            characterTextBox.SetActive(true);
-            playerTextBox.SetActive(false);
-        }
-        else
-        {
-            characterTextBox.SetActive(false);
-            playerTextBox.SetActive(true);
-        }
+        characterTextBox.SetActive(!characterTextBox.activeSelf);
+        playerTextBox.SetActive(!playerTextBox.activeSelf);
     }
 
     public void HandleNextButton()
