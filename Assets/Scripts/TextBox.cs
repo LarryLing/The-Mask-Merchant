@@ -15,7 +15,6 @@ public class TextBox : MonoBehaviour
     private int currentLineIndex = 0;
     private float typingSpeed = 0.01f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         dialogueText.text = string.Empty;

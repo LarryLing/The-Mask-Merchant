@@ -6,22 +6,32 @@ public class MaskInfoPanel : MonoBehaviour
 {
     public TextMeshProUGUI maskDescription;
     public GameObject panel;
+
     public Mask correctMask;
     public Mask selectedMask;
 
+    public GameObject textBox;
+    public GameObject resultBoxObject;
+    public TextMeshProUGUI resultText;
+
+    private ResultBox resultBox;
     private float typingSpeed = 0.01f;
 
     void Start()
     {
         panel.SetActive(false);
+        textBox.SetActive(true);
+        resultBoxObject.SetActive(false);
+
+        resultBox = resultBoxObject.GetComponent<ResultBox>();
     }
 
-    IEnumerator TypeLine(string description)
+    IEnumerator TypeLine(TextMeshProUGUI textMeshPro, string description)
     {
-        maskDescription.text = string.Empty;
+        textMeshPro.text = string.Empty;
         foreach (char letter in description.ToCharArray())
         {
-            maskDescription.text += letter;
+            textMeshPro.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
@@ -36,7 +46,7 @@ public class MaskInfoPanel : MonoBehaviour
         StopAllCoroutines();
         selectedMask = mask;
         maskDescription.text = string.Empty;
-        StartCoroutine(TypeLine(mask.maskDescription));
+        StartCoroutine(TypeLine(maskDescription, mask.maskDescription));
     }
 
     public void ClosePanel()
@@ -47,13 +57,18 @@ public class MaskInfoPanel : MonoBehaviour
 
     public void ConfirmSelection()
     {
+        panel.SetActive(false);
+        textBox.SetActive(false);
+        resultBoxObject.SetActive(true);
+
         if (selectedMask == correctMask)
         {
-            Debug.Log("Correct mask selected!");
+            resultBox.ShowResult("Wonderful! Thank you, I can already feel this is exactly what I need. I wish you the best.");
         }
         else
         {
-            Debug.Log("Incorrect mask selected. Try again.");
+            resultBox.ShowResult("I guess this will do. Wish you the best.");
         }
+
     }
 }
