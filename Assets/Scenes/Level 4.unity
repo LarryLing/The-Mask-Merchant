@@ -4673,6 +4673,7 @@ MonoBehaviour:
   - "You: Oh okay, sounds like they need to be discrete\u2026 but also masking for
     trouble. I think I\u2019ve got just the thing!"
   isCharacterSpeakingFirst: 1
+  currentLineIndex: 0
 --- !u!1 &1708816001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,7 +5425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: -35.60369}
+  m_AnchoredPosition: {x: -164, y: -8}
   m_SizeDelta: {x: 448.4088, y: 448.4069}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2101556539
