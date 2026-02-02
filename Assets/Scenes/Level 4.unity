@@ -585,10 +585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: "What a lovely finish, you look back at your reflection for a
-    few seconds. Watch out though, some edges are not sanded well and still slightly
-    rough, they could cut if handled carelessly. But otherwise it\u2019s smooth,
-    so smooth\u2026"
+  maskDescription: "What a lovely finish. Despite the material, the surface is polished
+    carefully to reveal all kinds of reflections\u2026 Yet, it is reliable, perhaps
+    even formidable, in the face of adversity. "
   materialDescription: stone
   fancyDescription: 3/10
 --- !u!114 &89790116
@@ -5670,8 +5669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: "Steely eyed and sharp witted. This mask can enhance these attributes,
-    for better or for worse\u2026"
+  maskDescription: "Steely-eyed and sharp-witted. This mask can enhance these attributes,
+    for better or for worse\u2026 Watch out though, some edges are not sanded well
+    and are still slightly rough, they could cut if handled carelessly. But otherwise
+    it\u2019s smooth, so smooth\u2026"
   materialDescription: metal
   fancyDescription: 5/10
 --- !u!114 &2114048663

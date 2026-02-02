@@ -12,7 +12,7 @@ public class TextBox : MonoBehaviour
     public string[] dialogueLines;
     public bool isCharacterSpeakingFirst;
 
-    private int currentLineIndex = 0;
+    public int currentLineIndex = 0;
     private float typingSpeed = 0.01f;
 
     void Start()

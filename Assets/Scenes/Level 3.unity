@@ -585,10 +585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: "What a lovely finish, you look back at your reflection for a
-    few seconds. Watch out though, some edges are not sanded well and still slightly
-    rough, they could cut if handled carelessly. But otherwise it\u2019s smooth,
-    so smooth\u2026"
+  maskDescription: "What a lovely finish. Despite the material, the surface is polished
+    carefully to reveal all kinds of reflections\u2026 Yet, it is reliable, perhaps
+    even formidable, in the face of adversity. "
   materialDescription: stone
   fancyDescription: 3/10
 --- !u!114 &89790116
@@ -4661,15 +4660,15 @@ MonoBehaviour:
   nextButton: {fileID: 209437351}
   prevButton: {fileID: 733964474}
   dialogueLines:
-  - 'Cloaked Cat: '
+  - 'Meuwu: meow meow meow meow meoowwww'
   - 'You: ????????'
-  - 'Cloaked Cat: '
+  - 'Meuwu: meow meow meow meow'
   - "You: O-oh. I.. I see\u2026 Perhaps I may provide you with the mask you seek?"
-  - 'Cloaked Cat: '
+  - 'Meuwu:  meow meow??'
   - 'You: A-ahahaha. Yup.'
-  - 'Cloaked Cat: '
+  - 'Meuwu: meow meow me-meow meowww '
   - "You: OK now that\u2019s just offensive."
-  - 'Cloaked Cat: '
+  - 'Meuwu: meow~~'
   isCharacterSpeakingFirst: 1
 --- !u!1 &1708816001
 GameObject:
@@ -5447,8 +5446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Character
   basic: {fileID: 1882932407}
   masked: {fileID: 706501131}
-  successMessage: 'Cloaked Cat:'
-  failureMessage: 'Cloated Cat:'
+  successMessage: 'Meuwu: meow meow!!'
+  failureMessage: 'Meuwu: meow meow....'
 --- !u!1 &2105899443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,8 +5665,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819cd8068489479396a28fd46b0e53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mask
-  maskDescription: "Steely eyed and sharp witted. This mask can enhance these attributes,
-    for better or for worse\u2026"
+  maskDescription: "Steely-eyed and sharp-witted. This mask can enhance these attributes,
+    for better or for worse\u2026 Watch out though, some edges are not sanded well
+    and are still slightly rough, they could cut if handled carelessly. But otherwise
+    it\u2019s smooth, so smooth\u2026"
   materialDescription: metal
   fancyDescription: 5/10
 --- !u!114 &2114048663

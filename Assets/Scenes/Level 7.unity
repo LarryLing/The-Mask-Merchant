@@ -439,8 +439,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -561,8 +561,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -1029,8 +1029,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -1289,8 +1289,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -1412,8 +1412,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -1563,8 +1563,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 605601549}
-        m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+      - m_Target: {fileID: 605601550}
+        m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 1
         m_Arguments:
@@ -1669,8 +1669,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -1929,8 +1929,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -2005,7 +2005,7 @@ GameObject:
   - component: {fileID: 605601546}
   - component: {fileID: 605601548}
   - component: {fileID: 605601547}
-  - component: {fileID: 605601549}
+  - component: {fileID: 605601550}
   m_Layer: 0
   m_Name: MaskInfoPanel
   m_TagString: Untagged
@@ -2075,7 +2075,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605601545}
   m_CullTransparentMesh: 1
---- !u!114 &605601549
+--- !u!114 &605601550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2084,19 +2084,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 605601545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96f68283a327a470b85716666018408b, type: 3}
+  m_Script: {fileID: 11500000, guid: ab1b0aefe4f9041499ce628bb3514778, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MaskInfoPanel
+  m_EditorClassIdentifier: Assembly-CSharp::QueenMaskInfoPanel
   maskDescription: {fileID: 260450296}
   materialDescription: {fileID: 739095771}
   fancyDescription: {fileID: 492832556}
   panel: {fileID: 605601545}
-  correctMask: {fileID: 897091223}
+  correctMask: {fileID: 1708816005}
   selectedMask: {fileID: 0}
   textBox: {fileID: 1619350930}
   resultBoxObject: {fileID: 1124111270}
   resultText: {fileID: 177058135}
-  character: {fileID: 2101556541}
+  queenCharacter: {fileID: 2101556542}
 --- !u!1 &622812768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,7 +2396,7 @@ GameObject:
   - component: {fileID: 706501134}
   - component: {fileID: 706501133}
   m_Layer: 5
-  m_Name: Masked
+  m_Name: Unmasking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7c10d9bd9689f4dd0ad6e0ee8127add5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 141d51fb112074a7bb9979c7531674af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2785,8 +2785,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -3044,8 +3044,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -3165,8 +3165,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -3803,8 +3803,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -3898,8 +3898,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 605601549}
-        m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+      - m_Target: {fileID: 605601550}
+        m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
         m_MethodName: ConfirmSelection
         m_Mode: 1
         m_Arguments:
@@ -4004,8 +4004,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -4200,8 +4200,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -4452,8 +4452,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -4660,22 +4660,24 @@ MonoBehaviour:
   nextButton: {fileID: 209437351}
   prevButton: {fileID: 733964474}
   dialogueLines:
-  - "Winona: SHOPKEEP! DO NOT BELITTLE ME! I AM THE GREAT WINONA, BEHOLD MY\u2014\u2026
-    m-my GREATNESS!"
-  - 'You: I welcome you, Winona the Great, to my humble establishment. How may I
-    be of service to you on this fine day?'
-  - 'Winona: I COME TO YOU WITH A REQUEST! SMALL AS I MAY BE, I AM ONE OF THE GREATEST
-    WARRIORS OF THIS LAND. '
-  - "You: I wouldn\u2019t doubt it for a second."
-  - "Winona: you\u2026 YOU ARE WISE TO FEAR ME! OTHERS LOOK DOWN ON ME, MOCK ME,
-    PITY ME! HAD I NOT BEEN RAISED BY THE STRONGEST WARRIOR TO EVER GRACE THIS WORLD,
-    I WOULD NOT HAVE HAD THE STRENGTH TO SHOW THEM MERCY."
-  - 'You: It is a difficult thing to show mercy to those who look down on you. Tell
-    me, what do you seek from this mask?'
-  - "Winona: I WISH\u2014 \u2026 not to be picked on anymore\u2026"
-  - "You: (Perhaps a mask with a fearsome appearance but comforting interior would
-    suit this individual) \u2026 I got just the right thing here to unmask your potential!"
+  - '[???]: Hello hello! '
+  - "You: Hey there! (That voice seems familiar\u2026)"
+  - "Queen Leila: Oh whoops, I should probably introduce myself again. It\u2019s
+    me, Leila! This mask Orion acquired from you might be working a bit too well
+    aha."
+  - 'You: Ah, so it was you! Good to see you again.'
+  - 'Queen Leila: Hehe, likewise. I really appreciate the help, both for myself and
+    my most dearest companions. My childhood best friend returned, and my advisor
+    caught in the aftermath of my mistakes recovered. Words simply cannot convey
+    my gratitude.'
+  - 'You: Of course, mask and ye shall receive!'
+  - "Queen Leila: They were so kind and sweet, so I\u2019m more hurt by their betrayal
+    than anything\u2026 Sorry got a bit off track there. I actually mean to recover
+    from the damage they, and I, left behind. Aha guess it\u2019s kind of a ridiculous
+    request. But after all that, can I get one mask just for myself?"
+  - 'You: Not at all, I got it- no questions masked!'
   isCharacterSpeakingFirst: 1
+  currentLineIndex: 0
 --- !u!1 &1708816001
 GameObject:
   m_ObjectHideFlags: 0
@@ -4788,8 +4790,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -4848,6 +4850,81 @@ Transform:
   - {fileID: 81564398}
   m_Father: {fileID: 20391028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1856963167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1856963168}
+  - component: {fileID: 1856963170}
+  - component: {fileID: 1856963169}
+  m_Layer: 5
+  m_Name: Unmasked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1856963168
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856963167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2101556537}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5.1406, y: 39}
+  m_SizeDelta: {x: 459.8388, y: 459.8388}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1856963169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856963167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 05914580b585f47b6bd65dc08b9ccf98, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1856963170
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856963167}
+  m_CullTransparentMesh: 1
 --- !u!1 &1882932407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,7 +4937,7 @@ GameObject:
   - component: {fileID: 1882932410}
   - component: {fileID: 1882932409}
   m_Layer: 5
-  m_Name: Basic
+  m_Name: Masked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4905,7 +4982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de2bfa75cc9754698bad31aa45e1c6b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f601c815b73f74d06afc3b5a8b4b4501, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5116,8 +5193,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
@@ -5401,9 +5478,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2101556537}
   - component: {fileID: 2101556539}
-  - component: {fileID: 2101556541}
+  - component: {fileID: 2101556542}
   m_Layer: 5
-  m_Name: Character
+  m_Name: QueenCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5423,6 +5500,8 @@ RectTransform:
   m_Children:
   - {fileID: 1882932408}
   - {fileID: 706501132}
+  - {fileID: 1856963168}
+  - {fileID: 2113463226}
   m_Father: {fileID: 20391028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5438,7 +5517,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101556536}
   m_CullTransparentMesh: 1
---- !u!114 &2101556541
+--- !u!114 &2101556542
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5447,14 +5526,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2101556536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e5170c6bb874475bc5144c70cef76c, type: 3}
+  m_Script: {fileID: 11500000, guid: f6f88a80abe314c8a875b70241779845, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Character
-  basic: {fileID: 1882932407}
-  masked: {fileID: 706501131}
-  successMessage: "Winona: this\u2026 this is PERFECT! I SHALL NEVER BE UNDERESTIMATED
-    EVER AGAIN. MASK MAKER, I WILL NEVER FORGET YOU."
-  failureMessage: "Winona: Oh\u2026 I suppose this might work\u2026"
+  m_EditorClassIdentifier: Assembly-CSharp::QueenCharacter
+  masked: {fileID: 1882932407}
+  unmasking: {fileID: 706501131}
+  unmasked: {fileID: 1856963167}
+  remasked: {fileID: 2113463225}
+  textBox: {fileID: 1619350932}
+  successMessage: 'Queen Leila: Aha I must say, your craftsmanship is impeccable.
+    This is splendid, thank you again! '
+  failureMessage: 'Queen Leila: This is very nice. Thanks again!'
 --- !u!1 &2105899443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,6 +5674,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105899443}
   m_CullTransparentMesh: 1
+--- !u!1 &2113463225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2113463226}
+  - component: {fileID: 2113463228}
+  - component: {fileID: 2113463227}
+  m_Layer: 5
+  m_Name: Remasked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2113463226
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113463225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2101556537}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5.1406, y: 39}
+  m_SizeDelta: {x: 459.8388, y: 459.8388}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2113463227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113463225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 32db5726996174ce1b8ceef1d41cdbfc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2113463228
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113463225}
+  m_CullTransparentMesh: 1
 --- !u!1 &2114048659
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,8 +5805,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 605601549}
-          m_TargetAssemblyTypeName: MaskInfoPanel, Assembly-CSharp
+        - m_Target: {fileID: 605601550}
+          m_TargetAssemblyTypeName: QueenMaskInfoPanel, Assembly-CSharp
           m_MethodName: ShowMaskInfo
           m_Mode: 2
           m_Arguments:
