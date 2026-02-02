@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "beneath-the-mask.slnx"
+    "dotnet.defaultSolution": "the-masked-merchant.slnx"
 }

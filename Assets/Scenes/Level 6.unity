@@ -4661,16 +4661,21 @@ MonoBehaviour:
   nextButton: {fileID: 209437351}
   prevButton: {fileID: 733964474}
   dialogueLines:
-  - "North: Hiya there. I\u2026.uh\u2026 don\u2019t actually know what I\u2019m here
-    for. How did I get here?"
-  - 'You: Oh, interesting. How do you feel right now?'
-  - "North: \u2026 Just, lost I guess. The only think I can remember are my dreams
-    as a child. I dreamed of exploring the world, wind whipping and the smell of
-    the ocean breeze. Now\u2026 I\u2019m not sure what to do, where to go."
-  - "You: I see, those who lost their essence from internal conflict sometimes lose
-    their humanness. Something must have happened around you and you had to make
-    a difficult decision. Don\u2019t worry, I\u2019ll help you recover your shine,
-    I have a feeling it would help not just you\u2026"
+  - "Winona: SHOPKEEP! DO NOT BELITTLE ME! I AM THE GREAT WINONA, BEHOLD MY\u2014\u2026
+    m-my GREATNESS!"
+  - 'You: I welcome you, Winona the Great, to my humble establishment. How may I
+    be of service to you on this fine day?'
+  - 'Winona: I COME TO YOU WITH A REQUEST! SMALL AS I MAY BE, I AM ONE OF THE GREATEST
+    WARRIORS OF THIS LAND. '
+  - "You: I wouldn\u2019t doubt it for a second."
+  - "Winona: you\u2026 YOU ARE WISE TO FEAR ME! OTHERS LOOK DOWN ON ME, MOCK ME,
+    PITY ME! HAD I NOT BEEN RAISED BY THE STRONGEST WARRIOR TO EVER GRACE THIS WORLD,
+    I WOULD NOT HAVE HAD THE STRENGTH TO SHOW THEM MERCY."
+  - 'You: It is a difficult thing to show mercy to those who look down on you. Tell
+    me, what do you seek from this mask?'
+  - "Winona: I WISH\u2014 \u2026 not to be picked on anymore\u2026"
+  - "You: (Perhaps a mask with a fearsome appearance but comforting interior would
+    suit this individual) \u2026 I got just the right thing here to unmask your potential!"
   isCharacterSpeakingFirst: 1
 --- !u!1 &1708816001
 GameObject:
@@ -5448,9 +5453,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Character
   basic: {fileID: 1882932407}
   masked: {fileID: 706501131}
-  successMessage: "this\u2026 this is PERFECT! I SHALL NEVER BE UNDERESTIMATED EVER
-    AGAIN. MASK MAKER, I WILL NEVER FORGET YOU."
-  failureMessage: "Oh\u2026 I suppose this might work\u2026"
+  successMessage: "Winona: this\u2026 this is PERFECT! I SHALL NEVER BE UNDERESTIMATED
+    EVER AGAIN. MASK MAKER, I WILL NEVER FORGET YOU."
+  failureMessage: "Winona: Oh\u2026 I suppose this might work\u2026"
 --- !u!1 &2105899443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5767,7 +5772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b39c5be02e8cf4ca4a16ea21a44fa672, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98c03c5d751b14240892115b560650e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
